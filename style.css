@@ -1,0 +1,182 @@
+* {
+	box-sizing: border-box;
+	font-family: 'Inter';
+	font-style: normal;
+}
+
+body {
+	background-color: #E5E5E5;
+}
+
+.logo {
+	position: absolute;
+	width: 31.9px;
+	height: 48px;
+	left: 84px;
+	top: 40px;
+}
+
+.cripto, .retangulo	{
+	display: inline-block;
+}
+
+main {
+	padding: 40px;
+}
+
+.cripto {
+	width: 46.6vw;
+	height: 944px;
+	margin-left: 13.8vw;
+	margin-right: 5.5vw;
+}
+
+textarea {
+	border: none;
+}
+
+textarea:focus {
+	outline: 0;
+}
+
+#criptografia {
+	width: 100%;
+	height: 288px;
+	color: #0A3871;
+	font-weight: 400;
+	font-size: 2rem;
+	line-height: 150%;
+	background-color: transparent;
+	margin-top: 128px;
+}
+
+#criptografia::placeholder {
+	color: #0A3871;
+}
+
+button {
+	height: 67px;
+	border-radius: 24px;
+	font-weight: 400;
+	font-size: 1rem;
+	line-height: 1.1875rem;
+	text-align: center;
+}
+
+h4 {
+	margin-top: 396px;
+	font-weight: 400;
+	font-size: 0.75rem;
+	line-height: 150%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding: 0;
+	gap: 8px;
+}
+
+.cripto span {
+	width: 1.125rem;
+	height: 1.125rem;
+	border-radius: 90px;
+	background-color: #495057;
+	color: #fff;
+	text-align: center;
+	font-size: 0.75rem;
+}
+
+.botoes {
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	padding: 0;
+	gap: 24px;
+	width: 100%;
+	margin: 16px 0;
+}
+
+#bt-criptografar {
+	width: 22.78vw;
+	background-color: #0A3871;
+	border: 1px solid #0A3871;
+	color: #FFFFFF;
+}
+
+button:hover {
+	font-size: 20px;
+}
+
+#bt-descriptografar {
+	width: 22.78vw;
+	background-color: #D8DFE8;
+	border: 1px solid #0A3871;
+	color: #0A3871;
+}
+
+.retangulo {
+	position: absolute;
+	border-radius: 32px;
+	background-color: #fff;
+	width: 28vw;
+	height: 944px;
+	padding: 32px;
+	text-align: center;
+	box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+}
+
+#resultado {
+	width: 100%;
+	height: 781px;
+	font-weight: 400;
+	font-size: 1.5rem;
+	line-height: 150%;
+	color: #495057;
+}
+
+#bt-copiar {
+	width: 100%;
+	margin-top: 32px;
+	color: #0A3871;
+	border: 1px solid #0A3871;
+}
+
+#figura {
+	position: relative;
+	width: 23vw;
+	height: 304px;
+	margin-top: 211px;
+}
+
+.aviso {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	padding: 0px;
+	gap: 16px;
+	margin-top: 32px;
+}
+
+h2 {
+	width: 100%;
+	font-weight: 700;
+	font-size: 1.5rem;
+	line-height: 120%;
+	color: #343A40;
+}
+
+h3 {
+	width: 100%;
+	font-weight: 400;
+	font-size: 1rem;
+	line-height: 150%;
+	color: #495057;
+}
+
+footer p {
+	position: absolute;
+	top: 980px;
+	padding: 10px;
+	font-style: italic;
+	font-weight: 300;
+}
+
