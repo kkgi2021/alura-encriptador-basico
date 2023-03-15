@@ -180,3 +180,114 @@ footer p {
 	font-weight: 300;
 }
 
+@media screen and (max-width: 768px) {
+	.logo {
+		left: 40px;
+		top: 74px;
+	}
+
+	.cripto {
+		width: 100%;
+		margin: 0;
+	}
+
+	#criptografia {
+		margin-top: 200px;
+	}
+
+	h4 {
+		margin-top: 308px;
+	}
+
+	.botoes {
+		margin-top: 16px;
+	}
+
+	#bt-criptografar {
+		width: 43.2vw;
+	}
+
+	#bt-descriptografar	{
+		width: 43.2vw;
+	}
+
+	.retangulo {
+		position: relative;
+		width: 100%;
+		height: auto;
+		margin: 32px 0 0 0;
+	}
+
+	.aviso {
+		margin: 0;
+	}
+
+	#figura {
+		display: none;
+	}
+
+	#resultado {
+		height: 180px;
+	}
+
+	footer p {
+		position: relative;
+		top: 0;
+	}
+}
+
+@media screen and (max-width: 375px) {
+	.logo {
+		width: 32px;
+		height: 48px;
+		left: 16px;
+		top: 24px;
+	}
+
+	main {
+		padding: 16px;
+		height: auto;
+	}
+
+	.cripto {
+		height: auto;
+	}
+
+	#criptografia {
+		margin-top: 136px;
+	}
+
+	h4 {
+		margin-top: 64px;
+	}
+
+	.botoes {
+		margin-top: 16px;
+		flex-direction: column;
+	}
+
+	#bt-criptografar {
+		width: 100%;
+	}
+
+	#bt-descriptografar	{
+		width: 100%;
+	}
+
+	.retangulo {
+		margin-top: 64px;
+	}
+
+	#figura {
+		display: none;
+	}
+
+	#resultado {
+		height: 180px;
+	}
+
+	footer p {
+		position: relative;
+		top: 0;
+	}
+}
