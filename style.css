@@ -21,12 +21,10 @@ body {
 }
 
 main {
-	padding: 40px;
+	padding: 0.1em;
 }
 
 .cripto {
-	width: 46.6vw;
-	height: 944px;
 	margin-left: 13.8vw;
 	margin-right: 5.5vw;
 }
@@ -64,10 +62,8 @@ button {
 }
 
 h4 {
-	margin-top: 396px;
-	font-weight: 400;
-	font-size: 0.75rem;
-	line-height: 150%;
+	margin-top: 25vh;
+	font-size: 0.8em;
 	display: flex;
 	flex-direction: row;
 	align-items: center;
@@ -114,12 +110,12 @@ button:hover {
 }
 
 .retangulo {
+	margin-top: 4vh;
 	position: absolute;
 	border-radius: 32px;
 	background-color: #fff;
-	width: 28vw;
-	height: 944px;
-	padding: 32px;
+	width: 31vw;
+	padding: 0.5em;
 	text-align: center;
 	box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
 }
@@ -134,8 +130,9 @@ button:hover {
 }
 
 #bt-copiar {
-	width: 100%;
-	margin-top: 32px;
+	width: 32vw;
+	height: 6vh;
+	margin-top: 24vh;
 	color: #0A3871;
 	border: 1px solid #0A3871;
 }
@@ -173,11 +170,12 @@ h3 {
 }
 
 footer p {
-	position: absolute;
-	top: 980px;
+	/* position: absolute; */
+	/* top: 90vh; */
+	margin-left: 50vw;
 	padding: 10px;
 	font-style: italic;
-	font-weight: 300;
+	margin-top: -1vh;
 }
 
 @media screen and (max-width: 768px) {
@@ -238,44 +236,284 @@ footer p {
 
 @media screen and (max-width: 375px) {
 	.logo {
-		width: 32px;
-		height: 48px;
-		left: 16px;
-		top: 24px;
+		width: 26px;
+		height: 29px;
+		left: 12px;
+		top: 9px;
 	}
 
 	main {
-		padding: 16px;
-		height: auto;
+		padding: 6px;
+		height: 100vh;
 	}
 
 	.cripto {
-		height: auto;
+		height: 29vh;
 	}
-
+  ::placeholder{
+    font-size: 0.7em;
+  }
+  h2{
+    font-size: 1em;
+    padding: 1em;
+  }
+  h3{
+    font-size: 0.8em;
+  }
 	#criptografia {
-		margin-top: 136px;
+		margin-top: 17vh;
+		text-align: center;
+		height: 21vh;
 	}
 
 	h4 {
-		margin-top: 64px;
+		margin-top: 1px;
+	}
+
+	.botoes {
+		margin-top: 0vh;
+		flex-wrap: nowrap;
+	}
+
+	#bt-criptografar {
+		width: 40vw;
+		height: 8vh;
+		margin-top: 0.5em;
+	}
+
+	#bt-descriptografar	{
+		width: 46vw;
+		height: 8vh;
+		margin-top: 0.5em;
+	}
+
+	.retangulo {
+		margin-top: 4vh;
+		height: 36vh;
+	}
+
+	#figura {
+		display: none;
+	}* {
+	box-sizing: border-box;
+	font-family: 'Inter';
+	font-style: normal;
+}
+
+body {
+	background-color: #E5E5E5;
+}
+
+.logo {
+	position: absolute;
+	width: 31.9px;
+	height: 48px;
+	left: 84px;
+	top: 40px;
+}
+
+.cripto, .retangulo	{
+	display: inline-block;
+}
+
+main {
+	padding: 0.1em;
+}
+
+.cripto {
+	margin-left: 13.8vw;
+	margin-right: 5.5vw;
+}
+
+textarea {
+	border: none;
+}
+
+textarea:focus {
+	outline: 0;
+}
+
+#criptografia {
+	width: 100%;
+	height: 288px;
+	color: #0A3871;
+	font-weight: 400;
+	font-size: 2rem;
+	line-height: 150%;
+	background-color: transparent;
+	margin-top: 128px;
+}
+
+#criptografia::placeholder {
+	color: #0A3871;
+}
+
+button {
+	height: 67px;
+	border-radius: 24px;
+	font-weight: 400;
+	font-size: 1rem;
+	line-height: 1.1875rem;
+	text-align: center;
+}
+
+h4 {
+	margin-top: 25vh;
+	font-size: 0.8em;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding: 0;
+	gap: 8px;
+}
+
+.cripto span {
+	width: 1.125rem;
+	height: 1.125rem;
+	border-radius: 90px;
+	background-color: #495057;
+	color: #fff;
+	text-align: center;
+	font-size: 0.75rem;
+}
+
+.botoes {
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	padding: 0;
+	gap: 24px;
+	width: 100%;
+	margin: 16px 0;
+}
+
+#bt-criptografar {
+	width: 22.78vw;
+	background-color: #0A3871;
+	border: 1px solid #0A3871;
+	color: #FFFFFF;
+}
+
+button:hover {
+	font-size: 20px;
+}
+
+#bt-descriptografar {
+	width: 22.78vw;
+	background-color: #D8DFE8;
+	border: 1px solid #0A3871;
+	color: #0A3871;
+}
+
+.retangulo {
+	margin-top: 4vh;
+	position: absolute;
+	border-radius: 32px;
+	background-color: #fff;
+	width: 31vw;
+	padding: 0.5em;
+	text-align: center;
+	box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+}
+
+#resultado {
+	width: 100%;
+	height: 781px;
+	font-weight: 400;
+	font-size: 1.5rem;
+	line-height: 150%;
+	color: #495057;
+}
+
+#bt-copiar {
+	width: 32vw;
+	height: 6vh;
+	margin-top: 5vh;
+	color: #0A3871;
+	border: 1px solid #0A3871;
+}
+
+#figura {
+	position: relative;
+	width: 23vw;
+	height: 304px;
+	margin-top: 211px;
+}
+
+.aviso {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	padding: 0px;
+	gap: 16px;
+	margin-top: 32px;
+}
+
+h2 {
+	width: 100%;
+	font-weight: 700;
+	font-size: 1.5rem;
+	line-height: 120%;
+	color: #343A40;
+}
+
+h3 {
+	width: 100%;
+	font-weight: 400;
+	font-size: 1rem;
+	line-height: 150%;
+	color: #495057;
+}
+
+footer p {
+	/* position: absolute; */
+	/* top: 90vh; */
+	margin-left: 50vw;
+	padding: 10px;
+	font-style: italic;
+	margin-top: -1vh;
+}
+
+@media screen and (max-width: 768px) {
+	.logo {
+		left: 40px;
+		top: 74px;
+	}
+
+	.cripto {
+		width: 100%;
+		margin: 0;
+	}
+
+	#criptografia {
+		margin-top: 200px;
+	}
+
+	h4 {
+		margin-top: 308px;
 	}
 
 	.botoes {
 		margin-top: 16px;
-		flex-direction: column;
 	}
 
 	#bt-criptografar {
-		width: 100%;
+		width: 43.2vw;
 	}
 
 	#bt-descriptografar	{
-		width: 100%;
+		width: 43.2vw;
 	}
 
 	.retangulo {
-		margin-top: 64px;
+		position: relative;
+		width: 100%;
+		height: auto;
+		margin: 32px 0 0 0;
+	}
+
+	.aviso {
+		margin: 0;
 	}
 
 	#figura {
@@ -285,9 +523,96 @@ footer p {
 	#resultado {
 		height: 180px;
 	}
-
+  
 	footer p {
 		position: relative;
 		top: 0;
+	}
+}
+
+
+
+
+
+@media screen and (max-width: 380px) {
+	.logo {
+		width: 26px;
+		height: 29px;
+		left: 12px;
+		top: 9px;
+	}
+
+	main {
+		padding: 6px;
+		height: 100vh;
+	}
+
+	.cripto {
+		height: 29vh;
+	}
+  ::placeholder{
+    font-size: 0.7em;
+  }
+  h2{
+    font-size: 1em;
+    padding: 1em;
+  }
+  h3{
+    font-size: 0.8em;
+  }
+	#criptografia {
+		margin-top: 17vh;
+		text-align: left;
+		height: 21vh;
+		font-size: 1em;
+	}
+
+	h4 {
+		margin-top: 1px;
+	}
+
+	.botoes {
+		margin-top: 0vh;
+		flex-wrap: nowrap;
+	}
+
+	#bt-criptografar {
+		width: 40vw;
+		height: 15vh;
+		margin-top: 0.5em;
+	}
+
+	#bt-descriptografar	{
+		width: 46vw;
+		height: 15vh;
+		margin-top: 0.5em;
+	}
+
+	.retangulo {
+		margin-top: 9vh;
+		height: 25vh;
+	}
+
+	#figura {
+		display: none;
+	}
+
+	#resultado {
+		height: 19vh;
+	}
+
+	footer p {
+		width: 53vw;
+		margin-top: -6vh;
+	}
+}
+
+	#resultado {
+		height: 8vh;
+	}
+
+	footer p {
+		width: 53vw;
+		margin-top: -7vh;
 	}
 }
