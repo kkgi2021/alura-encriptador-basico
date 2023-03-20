@@ -31,6 +31,8 @@ O projeto é composto pelos seguintes arquivos:
 ## Autor
 
 Este projeto foi desenvolvido por Claiton Gimenis como parte do curso de "JavaScript: da Alura.
+
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/claiton-gimenis-644b08148/)  
+
 [![github](https://img.shields.io/badge/github-000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/kkgi2021)  
     
